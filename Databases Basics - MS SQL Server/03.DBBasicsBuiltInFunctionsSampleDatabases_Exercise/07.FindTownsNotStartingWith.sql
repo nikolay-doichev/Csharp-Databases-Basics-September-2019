@@ -1,0 +1,11 @@
+--WILDCARD SOLUTION
+SELECT *
+    FROM Towns
+    WHERE [Name] NOT LIKE '[RBD]%'
+    ORDER BY [Name] ASC
+
+--TEXT FUNCTION SOLUTION
+SELECT * 
+	FROM Towns
+	WHERE LEFT([Name],1) NOT IN ('R', 'B', 'D')
+	ORDER BY [Name] ASC

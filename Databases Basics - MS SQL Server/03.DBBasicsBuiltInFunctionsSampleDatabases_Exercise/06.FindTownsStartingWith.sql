@@ -1,0 +1,11 @@
+--WILDCARD SOLUTION
+SELECT *
+    FROM Towns
+    WHERE [Name] LIKE '[MKBE]%'
+    ORDER BY [Name] ASC
+
+--TEXT FUNCTION SOLUTION
+SELECT * 
+	FROM Towns
+	WHERE LEFT([Name],1) IN ('M', 'K', 'B', 'E')
+	ORDER BY [Name] ASC
