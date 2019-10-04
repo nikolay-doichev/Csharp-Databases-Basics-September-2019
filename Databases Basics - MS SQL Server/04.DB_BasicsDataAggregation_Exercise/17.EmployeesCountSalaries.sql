@@ -1,0 +1,4 @@
+SELECT COUNT(Salary) AS [COUNT]
+	FROM Employees
+	GROUP BY ManagerID
+	HAVING ManagerID IS NULL
