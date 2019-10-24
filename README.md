@@ -20,7 +20,7 @@
   <td>2</td>
    <th>Basic CRUD</th>
   <td><a href="" >-</a></td>
-  <td><a href="" >-;</a></td>   
+  <td><a href="" >-</a></td>   
 </tr>
   <tr>
   <td>3</td>
